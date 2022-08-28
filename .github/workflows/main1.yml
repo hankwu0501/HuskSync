@@ -32,6 +32,3 @@ jobs:
         arguments: test
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
-      with: # Artifact name
-        name: sync
-        path: build/libs/*.jar
